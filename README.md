@@ -6,7 +6,7 @@ SKYNET E UM BOT DO TELEGRAM USADO PARA AUXILIAR
   <img src="http://imgur.com/B0npNzbl.png" />
 </a>
 
-
+<body>
 CREDITOS A EQUIPE BEGINS
 ---
    |
@@ -18,3 +18,4 @@ CREDITOS A EQUIPE BEGINS
                     |
                      --> KMIOKANDE
 
+</body>
