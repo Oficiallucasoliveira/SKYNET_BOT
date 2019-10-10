@@ -1,11 +1,19 @@
-* Não use Python 2.x
-* Não use o telepot
-* Eu usei apenas a versão 3.x
-* Eu usei o pyTelegramBotAPI.
-
-#chave de acesso! export BOT_API_TOKEN="734339725:AAFA77t55gdtkl4RYh2atqzCj8kDm57eUCw"
-#python3
-#pip3
-#pyTelegramBotAPI
 
 
+
+PARA USAR ESSE BOT BASTA USAR O PYTHON3 
+
+PARA INSTALAR O BOT NO PYTHON USE ESSE COMANDO ABAIXO
+
+	pip --version para ver qual a versão do python esta sendo usada caso seja o python2 va para o 2 comando
+
+	pip3 --version para ver qual a versão do python esta sendo usada
+
+# pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6) ESTA CORRETO
+
+comando!
+pip3 install pyTelegramBotAPI
+
+Edite o SKYNET_B.py 
+
+Basta trocar a chave API pela do seu BOT
