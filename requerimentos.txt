@@ -1,0 +1,11 @@
+* Não use Python 2.x
+* Não use o telepot
+* Eu usei apenas a versão 3.x
+* Eu usei o pyTelegramBotAPI.
+
+#chave de acesso! export BOT_API_TOKEN="734339725:AAFA77t55gdtkl4RYh2atqzCj8kDm57eUCw"
+#python3
+#pip3
+#pyTelegramBotAPI
+
+
