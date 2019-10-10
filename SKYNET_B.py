@@ -30,7 +30,7 @@ text_messages = {
         u'Espero que goste, enjoy!'
 }
 
-BOT_API_TOKEN = "840916950:AAHhqTSqEVa9vyqU7OFfO383HzAH_t1q-MY"  # Aqui voce coloca sua Chave de acesso! do BotFather
+BOT_API_TOKEN = "Chave API"  # Aqui voce coloca sua Chave de acesso! do BotFather
 
 bot = telebot.TeleBot(BOT_API_TOKEN)
 
@@ -85,7 +85,7 @@ def foo(message):
 """)
 @bot.message_handler(commands=['github'])
 def foo(message):
-    bot.reply_to(message, "https://github.com/mrbonnano/hack-folder")
+    bot.reply_to(message, "https://github.com/mrbonnano/")
 
 
 @bot.message_handler(commands=['link'])
@@ -101,11 +101,11 @@ def foo(message):
 	 Se você não conhece nem o inimigo nem a si mesmo, perderá todas as batalhas...\n""")
 
 #Para ter acesso a shell or cmd
-@bot.message_handler(commands=['cmd'])
+@bot.message_handler(commands=['shell'])
 def shell(message):
 
     if message.from_user.id in ids:
-        comando = message.text.replace('/cmd', '')
+        comando = message.text.replace('/shell', '')
         bot.reply_to(message, subprocess.getoutput(comando))
 
     else:
