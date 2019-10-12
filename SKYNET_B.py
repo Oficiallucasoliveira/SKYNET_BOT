@@ -5,6 +5,8 @@
 import telebot
 import os
 import subprocess
+
+#Banner Personalizado BOT SKYNET 
 print ("""
 	
 \033[05;31m
@@ -14,10 +16,13 @@ print ("""
 	 ___) |   <| |_| | | | |  __/ |_ 
 	|____/|_|\_\\__, |_| |_|\___|\__|
 	            |___/                
+	            @coder: Mr<B0nN4n0
 
-
+\033[01;37m
 	""")
+print ("\t \t \t B E G I N S T H E H A C K E R S ")
 
+#Fim do Banner 
 ids = [898925771]
 
 text_messages = {
@@ -32,7 +37,7 @@ text_messages = {
         u'Espero que goste, enjoy!'
 }
 
-BOT_API_TOKEN = "APITELEGRAM"  # Aqui voce coloca sua Chave de acesso! do BotFather
+BOT_API_TOKEN = "CHAVE"  # Aqui voce coloca sua Chave de acesso! do BotFather
 
 bot = telebot.TeleBot(BOT_API_TOKEN)
 
@@ -119,6 +124,11 @@ def shell(message):
 def foo(message):
     if message:
         bot.reply_to(message, message.chat.id)
+        print("Usuario: ",message, message.text )
+
+@bot.message_handler(func=lambda m: True)
+def echo_all(message):
+	bot.reply_to(message, message.text)
 
 
 bot.polling()
