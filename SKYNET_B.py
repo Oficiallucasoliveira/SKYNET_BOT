@@ -6,6 +6,8 @@ import telebot
 import os
 import subprocess
 print ("""
+	
+\033[05;31m
 	 ____  _                     _   
 	/ ___|| | ___   _ _ __   ___| |_ 
 	\___ \| |/ / | | | '_ \ / _ \ __|
@@ -30,7 +32,7 @@ text_messages = {
         u'Espero que goste, enjoy!'
 }
 
-BOT_API_TOKEN = "Chave API"  # Aqui voce coloca sua Chave de acesso! do BotFather
+BOT_API_TOKEN = "APITELEGRAM"  # Aqui voce coloca sua Chave de acesso! do BotFather
 
 bot = telebot.TeleBot(BOT_API_TOKEN)
 
@@ -39,7 +41,7 @@ bot = telebot.TeleBot(BOT_API_TOKEN)
 def foo(message):
     bot.reply_to(message, """\
 Olá, este são os comandos:
-\n/canal - canal no Youtube \n/regras - Regras do grupo \n/github - Nossos Arquivos \n/Link - link do grupo compartilhe \n/frase - Frase da Semana \n /info - Chame o BOT no PV """)
+\n/canal - canal no Youtube \n/regras - Regras do grupo \n/github - Nossos Arquivos \n/link - link do grupo compartilhe \n/frase - Frase da Semana \n /info - Chame o BOT no PV """)
 
 
 # adiciona o comando chama o canal do youtube
