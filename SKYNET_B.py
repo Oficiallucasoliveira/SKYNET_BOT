@@ -126,9 +126,10 @@ def foo(message):
         bot.reply_to(message, message.chat.id)
         print("Usuario: ",message, message.text )
 
-@bot.message_handler(func=lambda m: True)
-def echo_all(message):
-	bot.reply_to(message, message.text)
+
+
+
 
 
 bot.polling()
+
