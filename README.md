@@ -3,7 +3,7 @@ SKYNET E UM BOT DO TELEGRAM
 
 
 <a href="https://pbs.twimg.com/media/CGW0bJ0WQAA72NX.jpg:large">
-  <img src="https://pbs.twimg.com/media/CGW0bJ0WQAA72NX.jpg:largeg" />
+  <img src="https://pbs.twimg.com/media/CGW0bJ0WQAA72NX.jpg" />
 </a>
 
 
