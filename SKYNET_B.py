@@ -1,6 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # Project Creators
 # GNU/Dan && Mr Bonnano && Kmiokande
 # Bot created to assist in telegram group begins the hackers
+
 
 import telebot
 import os
@@ -9,16 +12,16 @@ import subprocess
 #Banner Personalizado BOT SKYNET 
 print ("""
 	
-\033[05;31m
+
 	 ____  _                     _   
 	/ ___|| | ___   _ _ __   ___| |_ 
 	\___ \| |/ / | | | '_ \ / _ \ __|
 	 ___) |   <| |_| | | | |  __/ |_ 
 	|____/|_|\_\\__, |_| |_|\___|\__|
 	            |___/                
-	            @coder: Mr<B0nN4n0
+	  @coder: Mr<B0nN4n0
 
-\033[01;37m
+
 	""")
 print ("\t \t \t B E G I N S T H E H A C K E R S ")
 
@@ -37,17 +40,36 @@ text_messages = {
         u'Espero que goste, enjoy!'
 }
 
-BOT_API_TOKEN = "CHAVE"  # Aqui voce coloca sua Chave de acesso! do BotFather
+BOT_API_TOKEN = "930304890:AAGVOCp_g9rH-YiVf_2OH-kZBSA8-xuUHYk"  # Aqui voce coloca sua Chave de acesso! do BotFather
 
 bot = telebot.TeleBot(BOT_API_TOKEN)
 
 # adiciona os comandos help e ajuda
 @bot.message_handler(commands=['start', 'ajuda', ])
 def foo(message):
-    bot.reply_to(message, """\
-Olá, este são os comandos:
-\n/canal - canal no Youtube \n/regras - Regras do grupo \n/github - Nossos Arquivos \n/link - link do grupo compartilhe \n/frase - Frase da Semana \n /info - Chame o BOT no PV """)
+    bot.reply_to(message, """
+		🤖Ola meu nome e C0der🤖
+              Vou auxiliar 
+                   Voce
+		 Para ver os comandos basta 
+		 
 
+		 -> /regras - Regras Gerais GP
+
+		 -> /canal  - Mr Bonnano
+
+		 -> /github - Repositorio GITHUB
+
+		 -> /shell  - Comando ADM
+
+		 -> /reboot - Reinicia RP3
+
+		 -> /foto     - Tirar foto
+
+		 -> /tsorte  - Resul TSORTE
+
+		 -> /id 	- Mostra ID
+												""")
 
 # adiciona o comando chama o canal do youtube
 @bot.message_handler(commands=['canal'])
@@ -59,36 +81,17 @@ def foo(message):
 def on_user_joins(message):
     bot.reply_to(message, text_messages['welcome'].format(name='Novo Usuario'))
 
-# adiocionado comando para chamar as regras
+# chamar as regras
 @bot.message_handler(commands=['regras'])
 def foo(message):
     bot.reply_to(message, """ Regras do grupo
-
-    Para participar deste grupo o membro precisa concordar em compartilhar conhecimento, obedecer aos administradores e respeitar os outros membros. Qualquer desrespeito a estas regras ou a qualquer pessoa ou instituição poderá implicar em banimento do membro delitoso.
-
-    Qualquer conteúdo postado fora dos tópicos do grupo deve ser removido, podendo implicar no banimento imediato do membro.
-
-    Postagens que apresentem ou incitem corportamentos ou conteúdos ofensivos à lei serão removidas e o membro será imediatamente excluído.
-
-    Postagens com intenção de doutrinamento político ou religioso serão removidas e o membro poderá ser excluído.
-
-    Postagens que violem direitos autorais ou pessoais ou afetem a boa convivência no grupo serão excluídas e o membro será imediatamente banido.
-
-    Postagens ligando o termo “Hacker” a atitudes criminosas, amorais ou anti-éticas serão eliminadas.
-
-    Postagem com endereço/link suspeito não será aceita e será excluída.
-
-    Postagem com endereço/link para material pirateado ou não autorizado não será aceita e será excluída.
-
-    Postagem com links para outros grupos (e.g grupos do Facebook/Telegram, etc) não será aceita e será excluída.
-
-    Postagem com links para vendas de produtos e/ou cursos (e.g Venda de cursos, etc) não será aceita e será excluída.
-
-    Postagem com links para qualquer tipo de conteúdo visando lucro, negociação, vendas ou envolvendo valores monetários (seja criptomoedas ou dinheiro $$$), seja diretamente intencional ou de forma indireta não será aceita e será excluída.
-
-    Não serão admitidos Lammers, Crackers, pessoas mal intencionadas ou que pretendam se valer do grupo para aprender a cometer crimes. Qualquer membro que seja descoberto em atitude suspeita será imediatamente banido.
-
-    Os casos duvidosos ou excessões pertinentes serão discutidos com os administradores do grupo.
+	
+	-> Não poste conteudos Infectados
+	-> Não poste conteudos como CURSOS ou PDFS
+	-> Não poste conteudos Cards ou Bankers 
+	-> Não poste conteudos Pornograficos
+	-> Respeite a todos os membros do Grupo
+	-> Qualquer Descumprimentos dessas Regras Resultara em Ban
 """)
 @bot.message_handler(commands=['github'])
 def foo(message):
@@ -119,17 +122,11 @@ def shell(message):
         bot.reply_to(message, 'Voce nao tem permissão de comando!')
         print(message.chat.first_name)
 
-
-@bot.message_handler(commands=['info'])
+#Envia o Id do User
+@bot.message_handler(commands=['id'])
 def foo(message):
     if message:
         bot.reply_to(message, message.chat.id)
-        print("Usuario: ",message, message.text )
-
-
-
-
 
 
 bot.polling()
-
