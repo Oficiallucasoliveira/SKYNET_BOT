@@ -2,8 +2,8 @@
 SKYNET E UM BOT DO TELEGRAM
 
 
-<a href="http://i.imgur.com/B0npNzb.png">
-  <img src="http://imgur.com/B0npNzbl.png" />
+<a href="https://pbs.twimg.com/media/CGW0bJ0WQAA72NX.jpg:large">
+  <img src="https://pbs.twimg.com/media/CGW0bJ0WQAA72NX.jpg:largeg" />
 </a>
 
 
