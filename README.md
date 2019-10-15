@@ -2,8 +2,8 @@
 SKYNET E UM BOT DO TELEGRAM
 
 
-<a href="https://pbs.twimg.com/media/CGW0bJ0WQAA72NX.jpg:large">
-  <img src="https://pbs.twimg.com/media/CGW0bJ0WQAA72NX.jpg" />
+<a href="https://www.movie-infos.net/forum/wcf/images/avatars/24/2990-2490525f8a4c92a8fef07c1d798a7f876c00adc7-128.png">
+  <img src="https://www.movie-infos.net/forum/wcf/images/avatars/24/2990-2490525f8a4c92a8fef07c1d798a7f876c00adc7-128.png" />
 </a>
 
 
