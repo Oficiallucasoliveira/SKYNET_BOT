@@ -12,4 +12,3 @@ SKYNET: Nos automatiza em comandos para facilitar a vida dos Administradores!
   
   @MrBonnano / @GNU/Dan  / @Kamiokande
 <br>
-
